@@ -1,5 +1,6 @@
 import { useMemo, useRef, useState } from 'react';
-import Markdown, { MarkdownRef } from 'ds-markdown';
+import Markdown from 'ds-markdown';
+import type { MarkdownRef } from 'ds-markdown';
 
 import dataJson from './data.json';
 
