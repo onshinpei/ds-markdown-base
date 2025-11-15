@@ -80,7 +80,7 @@ const App: React.FC<{
   return (
     <>
       <div className="ds-message-actions">
-        <div>
+        <div className="ds-message-actions-left">
           {isTyping ? (
             <button className="start-btn" disabled={isStop} onClick={onRestart}>
               重新开始
@@ -99,9 +99,9 @@ const App: React.FC<{
           >
             切换为{theme === 'light' ? '暗色' : '亮色'}
           </button>
-          <button className="theme-btn" onClick={() => setMathOpen(!mathOpen)}>
+          {/* <button className="theme-btn" onClick={() => setMathOpen(!mathOpen)}>
             {mathOpen ? '关闭' : '开启'}公式转换
-          </button>
+          </button> */}
           <button
             className="theme-btn"
             onClick={() => setDisableTyping(!disableTyping)}

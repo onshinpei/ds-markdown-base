@@ -53,6 +53,12 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+.ds-message-actions-left {
+  width: 315px;
+  margin-bottom: 10px;
 }
 .start-btn {
   padding: 10px 20px;
